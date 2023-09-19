@@ -26,6 +26,7 @@ const routes: Routes = [
 
     {path:'Course/:id',component: CourseDetailComponent},
     {path:'Popular',component: PopularComponent},
+    // {path:'Checkout',component: CheckoutComponent,data:{name:'Test',price:399}},
     {path:'Checkout',component: CheckoutComponent},
     // {path:'Checkout',component: CheckoutComponent,canActivate:[AuthguardService]},
     // {path:'Checkout',component: CheckoutComponent,canActivate:[CanActivate]},

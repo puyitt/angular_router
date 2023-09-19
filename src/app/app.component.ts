@@ -12,6 +12,7 @@ export class AppComponent {
   showLoader:boolean = false;
   
   router: Router = inject(Router);
+  
   ngOnInit(){
     this.router.events.subscribe((routerEvent:Event)=>{
       if(routerEvent instanceof NavigationStart) {
